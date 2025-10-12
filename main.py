@@ -43,7 +43,7 @@ def main():
             
             for shot in shots:
                 if shot.colision(element):
-                    element.kill()
+                    element.split()
                     shot.kill()
 
             
